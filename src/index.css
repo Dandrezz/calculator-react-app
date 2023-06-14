@@ -1,0 +1,43 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} 
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-primary {
+  @apply bg-[#e7e7e9] text-black;
+}
+
+.btn-primary:hover {
+  @apply bg-[#909092];
+}
+
+.btn-secondary {
+@apply bg-[#f89a59] text-black;
+}
+
+.btn-secondary:hover {
+  @apply bg-[#c57844];
+}
